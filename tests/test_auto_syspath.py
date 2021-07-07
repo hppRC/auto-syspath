@@ -49,8 +49,8 @@ def test_poetry():
 
     sys.path = orig_path
 
-def test_all():
-    import auto_syspath.all as _
+def test_rec_children():
+    import auto_syspath.rec_children as _
 
     import src as _
     import hoge as _
